@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               // JS version to compile to
+    "module": "ESNext",            // Module system to use
+    "strict": true,                // Enables all strict type checks
+    "esModuleInterop": true,       // Allows importing commonJS modules
+    "outDir": "./dist",            // Output directory for compiled files
+    "skipLibCheck": true
+  },
+  "include": ["./js/**/*"]
+}
